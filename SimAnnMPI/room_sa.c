@@ -2,9 +2,6 @@
  * ============================================================
  *  Równoległy Simulated Annealing – Przydział Pokoi (MPI)
  *  Akademia Górniczo-Hutnicza, WFiIS
- *
- *  Kompilacja: mpicc -O2 -o room_sa room_sa.c -lm
- *  Uruchomienie: mpirun -np 16 ./room_sa dane.txt
  * ============================================================
  *
  * Problem:
