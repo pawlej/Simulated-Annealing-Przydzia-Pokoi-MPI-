@@ -1,6 +1,6 @@
 # Instrukcja uruchomienia projektu MPI na Taurusie
 
-Potrzebne są 3 pliki:
+Potrzebne są 3 pliki z SimAnnMPI:
 
 ``` txt
 room_sa.c
