@@ -1,6 +1,5 @@
 # ============================================================
-#  Makefile – Monte Carlo SA, Przydial Pokoi (MPI)
-#  AGH WFiIS
+#  Makefile – Monte Carlo SA, Przydzial Pokoi (MPI)
 # ============================================================
 
 CC       = mpicc
@@ -32,23 +31,3 @@ run_cluster: $(TARGET)
 ## clean: przywrocenie stanu wyjsciowego
 clean:
 	rm -f $(TARGET) wyniki.txt
-
-# ---- Przykladowy hostfile (16 wezlow po 1 slocie) ----
-# Skopiuj do pliku 'hostfile' i dostosuj nazwy/adresy wezlow:
-#
-# node01 slots=1
-# node02 slots=1
-# node03 slots=1
-# node04 slots=1
-# node05 slots=1
-# node06 slots=1
-# node07 slots=1
-# node08 slots=1
-# node09 slots=1
-# node10 slots=1
-# node11 slots=1
-# node12 slots=1
-# node13 slots=1
-# node14 slots=1
-# node15 slots=1
-# node16 slots=1
